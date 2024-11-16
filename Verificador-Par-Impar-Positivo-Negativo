@@ -1,0 +1,24 @@
+Algoritmo "Verificador-Par-Impar-Positivo-Negativo"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Descrição   : O programa lê um número e retorna se o valor é ímpar ou par, negativo ou positivo
+// Autor(a)    : Gabriel Valu Trindade Rocha
+// Data atual  : 16/11/2024
+
+Var
+ Numero: inteiro
+Inicio
+ Escreval ("Digite um numero:") // Adicionando um valor a variavel número
+     Leia (Numero)
+     
+ Se Numero mod 2 = 0 Entao // Verificando se esse valor é impar ou par
+    Escreval ("O número ", Numero, " e um numero par")
+ Senao
+    Escreval ("O número ", Numero, " e um numero impar")
+ Fimse
+ 
+ Se Numero < 0 Entao
+    Escreval ("O número ", Numero, " é um número negativo")// Verificando se o valor é positivo ou negativo
+ Senao
+    Escreval ("O número ", Numero, " é um número positivo")
+ Fimse
+Fimalgoritmo
