@@ -1,4 +1,7 @@
- # Aprendizado em Lógica de Programação 🧠💻 <img src="https://media.giphy.com/media/f9jQLaKJJl6dL0AmmZ/giphy.gif" width= "30px">
+git add README.md
+git commit -m "Adicionando README"
+git push origin main
+# Aprendizado em Lógica de Programação 🧠💻 <img src="https://media.giphy.com/media/f9jQLaKJJl6dL0AmmZ/giphy.gif" width= "30px">
 
 Este repositório contém os exercícios e desafios que realizei durante o meu aprendizado na disciplina de Lógica de Programação. Aqui, compartilho códigos e soluções para problemas que exploram os principais conceitos de programação, como:
 
