@@ -1,0 +1,24 @@
+Algoritmo "Soma se iguais"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Descrição   : O programa solicita dois números ao usuário e, se forem iguais, exibe a soma; caso contrário, informa que os números são diferentes.
+// Autor(a)    : Gabriel Valu Trindade Rocha
+// Data atual  : 16/11/2024
+Var
+// Declaração das variáveis
+    Inteiro primeiroNumero, segundoNumero, soma
+
+    // Entrada de dados
+    Escreval("Digite o primeiro número: ")
+    Leia(primeiroNumero)
+    Escreval("Digite o segundo número: ")
+    Leia(segundoNumero)
+
+    // Lógica para verificar se os números são iguais
+    Se primeiroNumero = segundoNumero Então
+        soma <- primeiroNumero + segundoNumero
+        Escreval("A soma dos valores é: ", soma)
+    Senão
+        Escreval("Os valores não são iguais.")
+    FimSe
+
+Fimalgoritmo
