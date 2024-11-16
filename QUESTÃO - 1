@@ -1,0 +1,31 @@
+Algoritmo "Verificação de Soma"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Descrição   : O programa lê três números inteiros (A, B e C), calcula a soma de A e B, e verifica se essa soma é menor que C.
+// Autor(a)    : Gabriel Valu Trindade Rocha
+// Data atual  : 16/11/2024
+
+Var
+    A, B, C, Soma: inteiro
+
+Inicio
+    // Leitura dos valores
+    Escreval("Digite um número inteiro para A:")
+    Leia(A)
+
+    Escreval("Digite um número inteiro para B:")
+    Leia(B)
+
+    Escreval("Digite um número inteiro para C:")
+    Leia(C)
+
+    // Realizando a soma de A e B
+    Soma <- A + B
+
+    // Verificando se a soma é menor que C
+    Se Soma < C Então
+        Escreval("A soma de ", A, " e ", B, " é menor que ", C)
+    Senão
+        Escreval("A soma de ", A, " e ", B, " não é menor que ", C)
+    FimSe
+
+Fimalgoritmo
