@@ -1,0 +1,18 @@
+Algoritmo "Antecessor e Sucessor"
+// Disciplina  : [Linguagem e Lógica de Programação]
+// Descrição   : O código recebe um número inteiro do usuário e imprime seu antecessor e seu sucessor.
+// Autor(a)    : Gabriel Valu Trindade Rocha
+// Data atual  : 16/11/2024
+Var
+    // Declaração das variáveis
+    numero: inteiro
+Inicio
+    // Entrada de dados
+    Escreval ("Digite um número:")
+        Leia (numero)
+        
+    // Logica para imprimir o antessesor e sucessor e o seu número
+    Escreval ("O antessesor é: ", numero - 1)
+    Escreval ("O sucessor é ", numero + 1)
+    
+Fimalgoritmo
