@@ -1,0 +1,24 @@
+Algoritmo "Salario Minimo"
+// Disciplina  : [Linguagem e Lógica de Programação]
+// Descrição   : O programa calcula a quantidade de salários mínimos o usuário recebe
+// Autor(a)    : Gabriel Valu Trindade Rocha
+// Data atual  : 17/11/2024
+Var
+   // Seção de Declarações das variáveis
+   salarioMinimo, salarioUsuario, quantidadeSalarios: real
+
+Inicio
+   // Recebendo dados do usuario
+   Escreval ("Digite o seu salario:")
+       Leia (salarioUsuario)
+       
+   // Definindo salario minimo
+   salarioMinimo <- 1293.20
+   
+   // Calculando quantos salarios o usuario ganha
+   quantidadeSalarios <- salarioUsuario / salarioMinimo
+   
+   // Exibindo resultados
+   Escreval ("O usuario recebe", quantidadeSalarios:2, " salários mínimos.")
+
+Fimalgoritmo
